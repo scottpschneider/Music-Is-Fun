@@ -14,7 +14,7 @@ function ItunesController() {
     for (var i = 0; i < songs.length; i++) {
       var song = songs[i];
       template += `
-      <li>
+      <li> 
       <div class="card-deck text-dark">
       <p><img class= "card-img-top" src="${song.albumArt}" alt="" height=200" width=175"></p>
         <div class="card">
